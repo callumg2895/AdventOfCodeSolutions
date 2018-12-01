@@ -16,8 +16,8 @@ def get_first_repeat(input):
     result = 0
 
     while True:
-        for row in input:            
-            result += int(row)
+        for i in input:            
+            result += i
 
             if result in result_set: 
                 return result  
