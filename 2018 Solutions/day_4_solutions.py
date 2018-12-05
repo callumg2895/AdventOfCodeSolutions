@@ -140,4 +140,4 @@ def analyse_guards():
 
 get_input('day_4_input.csv')
 iterate_timestamps()
-print(analyse_guards())
+analyse_guards()
